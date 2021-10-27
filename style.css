@@ -1,0 +1,22 @@
+.category-item {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+}
+
+.category-mobile {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .category {
+    display: none;
+  }
+  .category-mobile {
+    display: block;
+  }
+}
